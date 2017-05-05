@@ -1,0 +1,143 @@
+﻿Build started 5/5/2017 2:49:39 PM.
+     1>Project "C:\Users\Muhammad Asif\Desktop\Paint Project\Paint Project.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Release\Paint Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Curve.cpp driver.cpp Line.cpp PPolygon.cpp RRectangle.cpp Text.cpp
+         Circle.cpp
+     1>Circle.cpp(31): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Circle.cpp(32): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Circle.cpp(34): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Circle.cpp(35): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Circle.cpp(43): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(47): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(47): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(57): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(67): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Circle.cpp(67): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Curve.cpp
+     1>Curve.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Curve.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Curve.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Curve.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Curve.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Curve.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         driver.cpp
+     1>driver.cpp(462): warning C4018: '<' : signed/unsigned mismatch
+         Line.cpp
+     1>Line.cpp(21): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Line.cpp(22): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Line.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Line.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Line.cpp(31): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Line.cpp(31): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Line.cpp(31): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Line.cpp(31): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         PPolygon.cpp
+     1>PPolygon.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>PPolygon.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>PPolygon.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PPolygon.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         RRectangle.cpp
+     1>RRectangle.cpp(16): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>RRectangle.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>RRectangle.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>RRectangle.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>RRectangle.cpp(32): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(32): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(32): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(32): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(33): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(34): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(45): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(47): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(50): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(57): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>RRectangle.cpp(57): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Text.cpp
+     1>Text.cpp(16): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Text.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Text.cpp(41): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Text.cpp(41): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt GP142.C
+         GP142.C
+     1>GP142.C(594): warning C4133: '=' : incompatible types - from 'char [8]' to 'LPCWSTR'
+     1>GP142.C(600): warning C4133: '=' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>GP142.C(606): warning C4133: '=' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>GP142.C(629): warning C4133: 'function' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>GP142.C(629): warning C4133: 'function' : incompatible types - from 'char [17]' to 'LPCWSTR'
+     1>GP142.C(642): warning C4133: 'function' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>GP142.C(642): warning C4133: 'function' : incompatible types - from 'char [11]' to 'LPCWSTR'
+     1>GP142.C(1346): warning C4133: 'function' : incompatible types - from 'char [16]' to 'LPCWSTR'
+     1>GP142.C(1349): warning C4133: 'function' : incompatible types - from 'char [23]' to 'LPCWSTR'
+     1>GP142.C(1352): warning C4133: 'function' : incompatible types - from 'char [26]' to 'LPCWSTR'
+     1>GP142.C(1359): warning C4133: 'function' : incompatible types - from 'char [16]' to 'LPCWSTR'
+     1>GP142.C(1365): warning C4133: 'function' : incompatible types - from 'char [22]' to 'LPCWSTR'
+     1>GP142.C(1368): warning C4133: 'function' : incompatible types - from 'char [24]' to 'LPCWSTR'
+     1>GP142.C(1371): warning C4133: 'function' : incompatible types - from 'char [24]' to 'LPCWSTR'
+     1>GP142.C(1377): warning C4133: 'function' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>GP142.C(1383): warning C4133: 'function' : incompatible types - from 'char [24]' to 'LPCWSTR'
+     1>GP142.C(1386): warning C4133: 'function' : incompatible types - from 'char [32]' to 'LPCWSTR'
+     1>GP142.C(1389): warning C4133: 'function' : incompatible types - from 'char [33]' to 'LPCWSTR'
+     1>GP142.C(1392): warning C4133: 'function' : incompatible types - from 'char [33]' to 'LPCWSTR'
+     1>GP142.C(1396): warning C4133: 'function' : incompatible types - from 'char [5]' to 'LPCWSTR'
+     1>GP142.C(1884): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>GP142.C(1927): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>GP142.C(2135): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>GP142.C(2188): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>GP142.C(2664): warning C4133: 'function' : incompatible types - from 'char *' to 'LPWSTR'
+     1>GP142.C(3293): warning C4133: 'function' : incompatible types - from 'char [11]' to 'LPCWSTR'
+     1>GP142.C(3302): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>GP142.C(3383): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>GP142.C(3405): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>GP142.C(3427): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>GP142.C(3869): warning C4133: 'function' : incompatible types - from 'char [11]' to 'LPCWSTR'
+     1>GP142.C(3878): warning C4133: 'function' : incompatible types - from 'LPSTR' to 'LPCWSTR'
+     1>GP142.C(3902): warning C4133: 'function' : incompatible types - from 'LPSTR' to 'LPCWSTR'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Muhammad Asif\Desktop\Paint Project\Release\Paint Project.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Paint Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Muhammad Asif\Desktop\Paint Project\Release\Paint Project.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Muhammad Asif\Desktop\Paint Project\Release\Paint Project.lib" /MACHINE:X86 Release\Circle.obj
+         Release\Curve.obj
+         Release\driver.obj
+         Release\GP142.obj
+         Release\Line.obj
+         Release\PPolygon.obj
+         Release\RRectangle.obj
+         Release\Text.obj
+         Generating code
+         Finished generating code
+         Paint Project.vcxproj -> C:\Users\Muhammad Asif\Desktop\Paint Project\Release\Paint Project.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Muhammad Asif\Desktop\Paint Project\Release\Paint Project.exe;#1" /manifest "Release\Paint Project.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Paint Project.unsuccessfulbuild".
+         Touching "Release\Paint Project.lastbuildstate".
+     1>Done Building Project "C:\Users\Muhammad Asif\Desktop\Paint Project\Paint Project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.54
